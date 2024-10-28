@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    padding: 5px 8px 12px 10px;
+    border: 2px solid red;
+    margin: 20px 10px 5px 20px;
+    display: inline-block;
+}
+
+.first {
+    height: 300px;
+    width: 50%;
+    display: none;
+}
+
+.second:hover {
+    color: white;
+    background: red;
+    cursor: pointer;
+
+}
